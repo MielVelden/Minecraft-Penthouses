@@ -1,0 +1,10 @@
+name: Penthouses
+version: '${project.version}'
+main: nl.miel.penthouses.Main
+depend: [ Vault, WorldEdit, WorldGuard ]
+authors: [ Mister_Miel ]
+api-version: 1.13
+commands:
+  penthouse:
+    aliases: [ penthouses ]
+  padmin:

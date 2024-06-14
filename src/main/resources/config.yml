@@ -1,0 +1,46 @@
+#
+#    ██████╗░███████╗███╗░░██╗████████╗██╗░░██╗░█████╗░██╗░░░██╗░██████╗███████╗░██████╗
+#    ██╔══██╗██╔════╝████╗░██║╚══██╔══╝██║░░██║██╔══██╗██║░░░██║██╔════╝██╔════╝██╔════╝
+#    ██████╔╝█████╗░░██╔██╗██║░░░██║░░░███████║██║░░██║██║░░░██║╚█████╗░█████╗░░╚█████╗░
+#    ██╔═══╝░██╔══╝░░██║╚████║░░░██║░░░██╔══██║██║░░██║██║░░░██║░╚═══██╗██╔══╝░░░╚═══██╗
+#    ██║░░░░░███████╗██║░╚███║░░░██║░░░██║░░██║╚█████╔╝╚██████╔╝██████╔╝███████╗██████╔╝
+#    ╚═╝░░░░░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░░╚═════╝░╚═════╝░╚══════╝╚═════╝░
+#
+#                   ╭────────────────────────────────────────╮
+#                   │                                        │
+#                   │            Gemaakt door:               │
+#                   │             Mister_Miel                │
+#                   │                                        │
+#                   ╰────────────────────────────────────────╯
+
+# Config Versie
+#
+# Kom niet aan deze setting
+Config-Version: 1.0
+
+# ────────────────────────────────────────
+#          Algemene Instellingen
+
+# Hoeveel procent van de koopprijs een speler terug krijgt
+# Zet dit naar 100 om het volldige bedrag terug te krijgen
+MoneyBackPercentage: 80
+
+# Gebruik een block om het huis in te komen
+# Zet dit naar true als je een block wilt gebruiken
+Use-Block: false
+
+# De naam van de block die gebruikt wordt om de speler in te teleporteren
+Block: 'REDSTONE_BLOCK'
+
+
+# ────────────────────────────────────────
+#              NPC Instellingen
+
+# De naam van de NPC
+NPC-Name: "&8< &c%building% &8>"
+
+# De skin van de NPC
+NPC-Skin: "Mister_Miel"
+
+
+# ────────────────────────────────────────

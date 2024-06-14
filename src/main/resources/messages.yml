@@ -1,0 +1,42 @@
+# Nederlandse Versie
+# Wil je gebruik maken van een andere taal kan je hiernaar vragen in de support discord
+
+# ────────────────────────────────────────
+#            Algemene Berichten
+
+MessagePrefix: "&2Penthouses &8︳ &7"
+No-Permission: "&cJe hebt niet genoeg permissies om dit te doen"
+Not-On-A-Plot: "&cJe bent niet op een plot"
+Not-Enough-Arguments: "&cJe hebt niet genoeg args meegegeven"
+Option-Not-Available: "&cDeze optie is niet ingeschakeld"
+
+# ────────────────────────────────────────
+#            Command Berichten
+
+Successfully-Added: "&aDe speler is toegevoegd aan dit appartement"
+Successfully-Removed: "&aDe speler is verwijderd uit dit appartement"
+Player-Already-Added: "&cDe speler is al toegevoegd aan dit appartement"
+Player-Already-Removed: "&cDe speler is niet in dit appartement"
+Player-Not-Found: "&cDe speler is niet online"
+Player-Not-In-House: "&cJe bent niet in een appartement"
+Successfully-Left: "&aJe hebt het appartement verlaten"
+Menu-Open: "&aJe hebt het menu geopend"
+On-Teleport: "&aJe wordt geteleporteerd naar dit appartement"
+
+# ────────────────────────────────────────
+#              Admin Berichten
+
+Building-Created: "&aHet gebouw is aangemaakt"
+Building-Deleted: "&aHet gebouw is verwijderd"
+Building-Not-Found: "&cHet gebouw is niet gevonden"
+Building-Already-Exists: "&cHet gebouw bestaat al"
+Building-Spawn-Set: "&aDe spawn van dit gebouw is ingesteld"
+Appartement-Created: "&aHet appartement is aangemaakt"
+Appartement-Deleted: "&aHet appartement is verwijderd"
+Appartement-Not-Found: "&cDit plot is geen appartement"
+Appartement-Already-Exists: "&cDit appartement bestaat al"
+Appartement-Spawn-Set: "&aDe spawn van dit appartement is ingesteld"
+Appartement-Spawn-NPC: "&aJe hebt een NPC geplaatst voor dit gebouw"
+Appartement-Spawn-NPC-Invalid: "&cDe NPC naam bevat geen %building%"
+PC-Created: "&aDe PC is aangemaakt voor dit gebouw"
+PC-No-Block: "&cJe moet naar een block kijken om een PC te maken"

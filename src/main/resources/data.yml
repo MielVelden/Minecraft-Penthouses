@@ -1,0 +1,20 @@
+Data:
+  Building:
+    Exit-Location:
+      X: ''
+      Y: ''
+      Z: ''
+      Yaw: ''
+      Pitch: ''
+    Rooms:
+      Room:
+        Region-Name: ''
+        Spawn-Location:
+          X: ''
+          Y: ''
+          Z: ''
+          Yaw: ''
+          Pitch: ''
+        Owner: ''
+        Members: []
+        Price:

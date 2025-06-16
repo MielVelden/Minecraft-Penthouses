@@ -1,7 +1,6 @@
 package nl.miel.penthouses;
 
 import net.milkbowl.vault.economy.Economy;
-import nl.miel.penthouses.Managers.EconomyManager;
 import nl.miel.penthouses.Commands.onAdmin;
 import nl.miel.penthouses.Commands.onCommand;
 import nl.miel.penthouses.Listeners.BlockListener;
@@ -23,11 +22,6 @@ public final class Main extends JavaPlugin {
         DataManager.setup();
         ConfigManager.setup();
         MessageManager.setup();
-        if(!new EconomyManager(this, "Q1GA3-NQP9V-5RS3I-66ULB-78J4D", "http://license.limecode.nl:54321/api/client", "49778d023259324d0b8af697285b7c44107b2eda").verify()) {
-            Bukkit.getPluginManager().disablePlugin(this);
-            Bukkit.getScheduler().cancelTasks(this);
-            return;
-        }
         if (!setupEconomy()) {
             this.getLogger().severe("Disabled due to no Vault dependency found!");
             Bukkit.getPluginManager().disablePlugin(this);

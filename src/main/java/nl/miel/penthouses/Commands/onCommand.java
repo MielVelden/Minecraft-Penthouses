@@ -121,32 +121,7 @@ public class onCommand implements CommandExecutor {
             } else {
                 p.sendMessage(Logger.color("&cGebruik /penthouse &4removemember (naam)"));
             }
-        } /*else if (args.length >= 1 && args[0].equalsIgnoreCase("transfer")) {
-            if (args.length == 2) {
-                if(WorldGuardManager.plotExists(p.getLocation())) {
-                    if(WorldGuardManager.getRegionOwner(p.getLocation()).equalsIgnoreCase(p.getUniqueId().toString())) {
-                        String plotName = WorldGuardManager.getRegionName(p.getLocation());
-                        String gebouw = DataManager.getBuildingByPenthouse(plotName);
-                        Player m = Bukkit.getPlayer(args[1]);
-                        if (m != null) {
-                            DataManager.transferPlot(gebouw, plotName, m.getUniqueId().toString());
-                            WorldGuardManager.clearPlot(p.getLocation());
-                            !WorldGuardManager.setOwner(p.getLocation(), m, plotName);
-                            p.sendMessage(Logger.color("&aHet plot is overgedragen!"));
-                            m.sendMessage(Logger.color("&aJe hebt een plot gekregen van " + p.getName()));                        } else {
-                        }
-
-                    } else {
-                        p.sendMessage(Logger.color("&cJe bent niet de eigenaar van dit plot!"));
-                        return true;
-                    }
-                } else {
-                    p.sendMessage(Logger.color("&cJe moet in een plot zitten."));
-                }
-            } else {
-                p.sendMessage(Logger.color("&cGebruik /penthouse &4transfer (naam)"));
-            }
-        }*/ else if (args.length >= 1 && args[0].equalsIgnoreCase("verlaat")) {
+        } else if (args.length >= 1 && args[0].equalsIgnoreCase("verlaat")) {
             if(!WorldGuardManager.plotExists(p.getLocation())){
                 p.sendMessage(Logger.color("Je staat niet op het plot"));
                 return true;

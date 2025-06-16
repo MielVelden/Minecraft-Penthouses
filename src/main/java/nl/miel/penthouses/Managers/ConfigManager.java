@@ -40,8 +40,4 @@ public class ConfigManager {
     public static FileConfiguration get() {
         return ConfigManager.customFile;
     }
-
-
-
-
 }

@@ -6,5 +6,4 @@ public class Logger {
     public static String color(final String message) {
         return ChatColor.translateAlternateColorCodes('&', message);
     }
-
 }

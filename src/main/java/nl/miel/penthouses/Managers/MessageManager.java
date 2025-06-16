@@ -18,6 +18,7 @@ public class MessageManager {
         MessageManager.config = main.getConfig();
         main.saveDefaultConfig();
     }
+
     public static void setup() {
         MessageManager.file = new File(Bukkit.getServer().getPluginManager().getPlugin("Penthouses").getDataFolder(), "messages.yml");
         if (!MessageManager.file.exists()) {
@@ -38,8 +39,6 @@ public class MessageManager {
             System.out.println("Couldn't save file");
         }
     }
-
-
 
     public static String getMessage(String value) {
         return MessageManager.get().getString(value);

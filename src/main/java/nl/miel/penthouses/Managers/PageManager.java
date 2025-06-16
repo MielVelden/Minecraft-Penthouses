@@ -17,7 +17,6 @@ import java.util.UUID;
 public class PageManager {
     private static Main plugin;
 
-
     public static void GUI(Player player, int page, String building) {
         Inventory gui = Bukkit.createInventory(null, 54, "Penthouses - " + page);
         ArrayList<String> lore = new ArrayList();
@@ -54,8 +53,6 @@ public class PageManager {
                     itemMeta.setLocalizedName(owner);
 
                 }
-
-
             }
 
             List<String> members = DataManager.get().getStringList("Data." + building + ".Rooms." + str + ".Members");
@@ -71,11 +68,6 @@ public class PageManager {
             item.setItemMeta(itemMeta);
             allItems.add(item);
         }
-        /*for (int i = 0; i < 135; i++) {
-
-
-            allItems.add(new ItemStack(Material.BOOK));
-        }*/
 
         ItemStack left;
         ItemMeta leftMeta;

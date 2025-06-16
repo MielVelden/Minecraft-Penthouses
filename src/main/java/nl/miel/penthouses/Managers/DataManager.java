@@ -34,14 +34,12 @@ public class DataManager {
         }
     }
 
-
-
-    //check if building exists
+    // Check if building exists
     public static boolean buildingExists(String name) {
         return DataManager.customFile.contains("Data." + name);
     }
 
-    //check if building exists
+    // Check if building exists
     public static boolean penthouseExists(String building, String penthouse) {
         boolean exists = DataManager.get().contains("Data." + building + ".Rooms." + penthouse);
         return exists;
@@ -80,9 +78,7 @@ public class DataManager {
         }
 
         return building;
-
     }
-
 
     public static Location getPenthouseSpawn(World world, String building, String penthouse) {
         return new Location(
@@ -94,15 +90,13 @@ public class DataManager {
                 (float) DataManager.get().getDouble("Data." + building + ".Rooms." + penthouse + ".Spawn-Location.Pitch")
         );
     }
-    //get owner from penthouse
+
+    // Get owner from penthouse
     public static String getPenthouseOwner(String building, String penthouse) {
         return DataManager.get().getString("Data." + building + ".Rooms." + penthouse + ".Owner");
     }
 
-
-
-
-    //get members from penthouse
+    // Get members from penthouse
     public static List getMembers(String building, String penthouse) {
         return DataManager.get().getStringList("Data." + building + ".Rooms." + penthouse + ".Members");
     }
@@ -127,18 +121,19 @@ public class DataManager {
         DataManager.get().set("Data." + building + ".Rooms." + penthouse + ".Owner", "");
         DataManager.save();
     }
+
     public static void transferPlot(String building, String penthouse, String member) {
         clearPenthouse(building, penthouse);
         DataManager.get().set("Data." + building + ".Rooms." + penthouse + ".Owner", member);
         DataManager.save();
     }
 
-    //get price from penthouse
+    // Get price from penthouse
     public static int getPrice(String building, String penthouse) {
         return DataManager.get().getInt("Data." + building + ".Rooms." + penthouse + ".Price");
     }
 
-    //get building spawn location
+    // Get building spawn location
     public static Location getBuildingSpawn(World world, String building) {
         return new Location(
                 world,
@@ -170,7 +165,7 @@ public class DataManager {
         return;
     }
 
-    //create new penthouse
+    // Create new penthouse
     public static void createPenthouse(String building, String penthouse, double price, Location spawn) {
         DataManager.get().set("Data." + building + ".Rooms." + penthouse + ".Spawn-Location.X", spawn.getX());
         DataManager.get().set("Data." + building + ".Rooms." + penthouse + ".Spawn-Location.Y", spawn.getY());
@@ -183,5 +178,4 @@ public class DataManager {
         DataManager.save();
         return;
     }
-
 }

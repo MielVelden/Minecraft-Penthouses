@@ -60,6 +60,7 @@ public class WorldGuardManager
         region.getOwners().addPlayer(owner.getUniqueId());
 
     }
+    
     public static void clearPlot(final Location plotLoc) {
         final ApplicableRegionSet regions = ((WorldGuardPlugin) Bukkit.getServer().getPluginManager().getPlugin("WorldGuard")).getRegionManager(plotLoc.getWorld()).getApplicableRegions(plotLoc);
         if (!plotExists(plotLoc)) {
@@ -73,6 +74,7 @@ public class WorldGuardManager
             return;
         }
     }
+
     public static void addMember(Location plotLoc, Player member) {
         final ApplicableRegionSet regions = ((WorldGuardPlugin) Bukkit.getServer().getPluginManager().getPlugin("WorldGuard")).getRegionManager(plotLoc.getWorld()).getApplicableRegions(plotLoc);
         if (!plotExists(plotLoc)) {
@@ -85,6 +87,7 @@ public class WorldGuardManager
             return;
         }
     }
+
     public static void removeMember(Location plotLoc, Player member) {
         final ApplicableRegionSet regions = ((WorldGuardPlugin) Bukkit.getServer().getPluginManager().getPlugin("WorldGuard")).getRegionManager(plotLoc.getWorld()).getApplicableRegions(plotLoc);
         if (!plotExists(plotLoc)) {

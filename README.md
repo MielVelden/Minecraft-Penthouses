@@ -7,9 +7,9 @@
 > **🌟 Legacy Project from June 2022** - A custom Minecraft plugin that adds unique penthouse functionality to your server
 
 ## 🎥 Showcase
+[![Watch the video](https://img.youtube.com/vi/1eaD9zgPOKk/maxresdefault.jpg)](https://youtu.be/1eaD9zgPOKk)
 
 <div align="center">
-  <iframe width="600" height="340" src="https://www.youtube.com/embed/1eaD9zgPOKk" title="Penthouses Plugin Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <p><i>👆 Watch the showcase video above or <a href="https://youtu.be/1eaD9zgPOKk">click here to watch the video on YouTube</a></i></p>
 </div>
 
